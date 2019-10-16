@@ -27,6 +27,11 @@ ul li {
     max-width: 1080px; 
 }
 
+.main-nav a {
+    display: block;
+}
+
+
 a:link {
     color: black;
     text-decoration: none;
@@ -109,3 +114,27 @@ span {
 
 /* ---- Media Queries ----- */
 
+@media (min-width: 768px) {
+    ul li {
+        display: inline-block;
+        background: none;
+    }
+
+    .profile {
+        float: right;
+        margin-right: 30px;
+        margin-left: 60px;
+    }
+
+    #intro {
+        font-size: 115%;
+        text-align: left;
+        margin-left: 40px;
+    }
+
+    .portfolio {
+        
+    }
+
+    
+}
