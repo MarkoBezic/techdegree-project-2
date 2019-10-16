@@ -7,60 +7,65 @@
     <title>Marko Bezic Portfolio</title>
 </head>
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
 <body>
-    <header class="main-header">
-        <div class="container">
-            <h1 class="name"><a href="#">Marko Bezic</a></h1>
-            <ul class="main-nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-    </header>
 
-    <div class="banner">
-        <img class="profile-pic" src="images/Me.jpg">
-        <h1 class="headline">Marko Bezic</h1>
-        <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
-    </div>
+        <header class="main-header">
+            <div class="container">
+                <h1 class="name"><a href="#">Marko Bezic</a></h1>
+                <ul class="main-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        
+    
+
+        <div>
+            <img class="profile" src="images/Me.jpg">
+            <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+        </div>
+        </header>
+    
 
     <div class="portfolio">
         <h2>Portfolio</h2>
-            <img class="tumbnail" src="images/portfolio-1.png">
+            <img class="thumbnail" src="images/portfolio-1.png" alt="Portfolio">
             <h3>Marketing Page</h3>
             <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
     
-            <img class="tumbnail" src="images/portfolio-2.png">
+            <img class="thumbnail" src="images/portfolio-2.png" alt="Search Page">
             <h3>Search Page</h3>
             <p>This project searches through a specfic database to find information that the user is trying to look up.</p>
     
-            <img class="tumbnail" src="images/portfolio-3.png">
+            <img class="thumbnail" src="images/portfolio-3.png" alt="Travel App">
             <h3>Travel App</h3>
             <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
 
-            <img class="tumbnail" src="images/portfolio-4.png">
+            <img class="thumbnail" src="images/portfolio-4.png" alt="Map of Favorite Spots">
             <h3>Map of Favorite Spots</h3>
             <p>This project uses mapping apis to plot point for a my favorite spots in the city for a do-it-yourself walking tour.</p>  
 
-            <img class="tumbnail" src="images/portfolio-5.png">
+            <img class="thumbnail" src="images/portfolio-5.png" alt="Photo Gallery">
             <h3>Photo Gallery</h3>
             <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
 
-            <img class="tumbnail" src="images/portfolio-6.png">
+            <img class="thumbnail" src="images/portfolio-6.png" alt="Calculator">
             <h3>Calculator</h3>
             <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
-    
     
     </div>
 
     <footer class="main-footer">
         <h2>Contact</h2>
-        <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-        <p>Phone: 905-617-6349</p>
-        <p>Email: marko.bezic@gmail.com</p>
-        <h2>Marko Bezic</h2>
-        <h2><a href="#">Back to top</a></h2>
+        <p id=footer-p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+        <p>Phone: <span>905-617-6349</span></p>
+        <p>Email: <span>marko.bezic@gmail.com</span></p>
+        <div class="bottom-footer">
+            <h4 id="footer-name">Marko Bezic</h4>
+            <h4 id="backtotop"><a href="#">Back to top</a></h4>
+        </div>
     </footer>
 
 
