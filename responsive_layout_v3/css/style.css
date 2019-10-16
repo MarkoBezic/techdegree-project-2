@@ -3,10 +3,8 @@
 
 * {
     box-sizing: border-box;
-    border: solid 2px red;
+    /* border: solid 2px red; */
 }
-
-
 
 body {
     font-family: Acme;
@@ -15,15 +13,12 @@ body {
      
 }
 
-
-
 .name,
 .main-header {
     background: #fafafa;
     margin: 0;
     
 }
-
 
 ul li {
     background-color: white;
@@ -34,9 +29,6 @@ ul li {
     max-width: 1080px;
     
 }
-
-
-
 
 a:link {
     color: black;
@@ -73,7 +65,8 @@ p {
 }
 
 .main-footer {
-    background: #f76464;
+    background: #fafafa;
+    padding-top: 7%;
     
 }
 
@@ -86,9 +79,9 @@ span {
     font-weight: bold;
 }
 
-.bottom-footer {
+#bottom-footer {
     border-top: solid 1px rgb(215, 227, 240);
-    margin: 10% 5% 0;
+    margin: 10% 5% 0; 
 }
 
 #footer-name {
