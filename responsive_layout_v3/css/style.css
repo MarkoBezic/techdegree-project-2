@@ -14,8 +14,7 @@ body {
 
 .name,
 .main-header {
-    background: #fafafa;
-    background: rgb(185, 128, 128);
+    background: #f7f5f5;
     margin: 0;
 }
 
@@ -53,15 +52,24 @@ h3 {
     margin-top: 35px;
 }
 
-h4 {
+.titleport {
     text-transform: uppercase;
     font-weight: bold;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
+h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: none;
+    padding-bottom: none;
+}
+
 .profile {
     width: 40%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .thumbnail {
@@ -75,15 +83,15 @@ p {
 }
 
 .main-footer {
-    background: #fafafa;
-    background: rgb(155, 139, 185);
+    background: #f7f5f5;
     padding-top: 10px;
     
 }
 
 #footer-p {
-    margin-left: 45px;
-    margin-right: 45px;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 span {
@@ -93,12 +101,11 @@ span {
 
 #bottom-footer {
     border-top: solid 1px rgb(215, 227, 240);
-    margin: 10% 5% 0; 
+    margin: 0% 5% 0; 
 }
 
-#footer-name {
-    float: left;
-    margin-left: 4% ;
+.footer-nav {
+    display: none;
 }
 
 #backtotop {
@@ -106,12 +113,16 @@ span {
     margin-right: 4%;
 }
 
+#footer-name {
+    float: left;
+    text-align: left;
+}
+
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
-
 
 /* ---- Media Queries ----- */
 
@@ -134,7 +145,6 @@ span {
         margin-bottom: 70px;
     }
 
-
     .description {
         max-width: 280px;
         margin-left: auto;
@@ -144,8 +154,7 @@ span {
    .col-1a {
         float: left;
         width: 50%;
-        
-        
+          
    }
  
    .col-2a {
@@ -153,5 +162,69 @@ span {
        width: 50%;
        
    }   
-     
+
+   #backtotop {
+       display: none;
+   }
+
+  .footer-nav {
+      display: block;
+      float: right;
+      padding-top: none;
+      padding-bottom: none;
+  }
+}
+
+@media (min-width: 1024px) {
+
+    .name {
+        float: left;
+        margin-left: 40px;
+        padding-top: 10px;
+    }
+
+    .main-nav {
+       float: right;
+    }
+
+    .main-header {
+        position: relative;
+        padding-bottom: 145px;
+    }
+
+    #intro {
+        float: left;
+        padding-right: 50%;
+        padding-top: 20px;
+    }
+
+    .profile {
+       position: absolute;
+       right: 0;
+       top: 100px; 
+       max-height: 300px;
+       max-width: 424px;
+       
+    }
+
+    .col-1b {
+        float: left;
+        width: 33.33%;
+    }
+
+    .col-2b {
+        float: right;
+        width: 33.33%;
+    }
+
+    .col-3b {
+        float: right;
+        width: 33.33%
+    }
+
+    .main-footer {
+        position: relative;
+        top: 70px;
+    }
+
 }
