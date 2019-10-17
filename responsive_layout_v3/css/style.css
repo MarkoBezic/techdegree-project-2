@@ -62,8 +62,8 @@ h3 {
 h4 {
     text-transform: uppercase;
     font-weight: bold;
-    padding-top: none;
-    padding-bottom: none;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .profile {
@@ -141,6 +141,7 @@ span {
     #intro {
         font-size: 115%;
         text-align: left;
+        margin-top: 34px;
         margin-left: 40px;
         margin-bottom: 70px;
     }
@@ -170,8 +171,8 @@ span {
   .footer-nav {
       display: block;
       float: right;
-      padding-top: none;
-      padding-bottom: none;
+      padding-top: 0;
+      padding-bottom: 0;
   }
 }
 
@@ -195,7 +196,6 @@ span {
     #intro {
         float: left;
         padding-right: 50%;
-        padding-top: 20px;
     }
 
     .profile {
