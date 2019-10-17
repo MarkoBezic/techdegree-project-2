@@ -3,7 +3,7 @@
 
 * {
     box-sizing: border-box;
-    border: solid 2px red;
+    /* border: solid 2px red; */
 }
 
 body {
@@ -15,6 +15,7 @@ body {
 .name,
 .main-header {
     background: #fafafa;
+    background: rgb(185, 128, 128);
     margin: 0;
 }
 
@@ -30,7 +31,6 @@ ul li {
 .main-nav a {
     display: block;
 }
-
 
 a:link {
     color: black;
@@ -76,6 +76,7 @@ p {
 
 .main-footer {
     background: #fafafa;
+    background: rgb(155, 139, 185);
     padding-top: 10px;
     
 }
@@ -133,14 +134,24 @@ span {
         margin-bottom: 70px;
     }
 
-   .column {
-       max-width: 300px;
-       display: inline-block
+
+    .description {
+        max-width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+   .col-1a {
+        float: left;
+        width: 50%;
+        
+        
    }
-
-
-   
-    
-
-    
+ 
+   .col-2a {
+       float: right;
+       width: 50%;
+       
+   }   
+     
 }
