@@ -3,7 +3,7 @@
 
 * {
     box-sizing: border-box;
-    /* border: solid 2px red; */
+    border: solid 2px red;
 }
 
 body {
@@ -130,11 +130,17 @@ span {
         font-size: 115%;
         text-align: left;
         margin-left: 40px;
+        margin-bottom: 70px;
     }
 
-    .portfolio {
-        
-    }
+   .column {
+       max-width: 300px;
+       display: inline-block
+   }
+
+
+   
+    
 
     
 }
